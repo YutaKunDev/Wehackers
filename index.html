@@ -1,0 +1,34 @@
+       <!DOCTYPE html>
+       <html lang="en">
+       <head>
+           <meta charset="UTF-8">
+           <meta name="viewport" content="width=device-width, initial-scale=1.0">
+           <title>Wehackers</title>
+           <link rel="stylesheet" href="style.css">
+       </head>
+       <body>
+           <div class="container">
+               <h1>Wehackers</h1>
+               <div id="login-section">
+                   <input type="text" id="username" placeholder="Enter your username">
+                   <button onclick="login()">Login</button>
+               </div>
+               <div id="main-menu" class="hidden">
+                   <h2>Welcome, <span id="user-name"></span></h2>
+                   <div class="menu">
+                       <button onclick="mine()">Mine vTC</button>
+                       <button onclick="upgrade()">Upgrade</button>
+                       <button onclick="shop()">Shop</button>
+                       <button onclick="attack()">Attack</button>
+                   </div>
+                   <div id="stats">
+                       <p>vTC: <span id="vTC">0</span></p>
+                       <p>Level: <span id="level">1</span></p>
+                       <p>EXP: <span id="exp">0</span></p>
+                   </div>
+               </div>
+           </div>
+           <script src="script.js"></script>
+       </body>
+       </html>
+       
